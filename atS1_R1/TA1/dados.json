@@ -1,0 +1,16 @@
+{
+    "clientes":[
+        {
+            "nome": "Amália",
+            "idade": 24,
+            "telefone": "199.898.726-00",
+            "cpf": 12335467889,   
+            "estadoCivil": "solteira",
+            "cidade": "Pindamohangaba",
+            "nomeMae": "Funéria",
+            "nomePai": "Osvaldo",
+            "endereco": "Rua dos AmendoBobo, Ciricascudo, 123",
+            "ativo": true      
+        }
+    ]
+}

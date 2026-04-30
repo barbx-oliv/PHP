@@ -6,22 +6,37 @@
     <title>Cargos_Funcionários</title>
     <style>
         body {
-            background-color: #ffcad4;
+            background-color: #b47686;
             text-align: center;
         }
         table {
-        margin: 0 auto;
+        margin: 50px auto;
         border-collapse: collapse;
-        background-color: #f4acb7;
-    }
+        background-color: #f1a6b1;
+        width: 60%;
+        color: white;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid;
+            text-align: left;
+        }
+        th {
+            background-color: #e6b0c0;
+            color: white;
+            text-align: center;
+        }
+        td {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <table border="5">
+    <table>
         <tr>
-            <th> Nome: </th>
-            <th> Cargo: </th>
-            <th> Salário: </th>
+            <th> Nome </th>
+            <th> Cargo </th>
+            <th> Salário </th>
         </tr>
         <?php 
             $funcionarios = [

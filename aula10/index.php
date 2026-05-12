@@ -1,21 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula10</title>
-</head>
-<body>
-    <?php 
-        session_start();
+<?php 
+    require "header.php"; // Se header.php não for encontrado, o script será interrompido
 
-        $_SESSION["usuario"] = "Jorge";
+    echo "Página inicial";
 
-        echo "Usuário armazenado na sessão <br><pre>";
-
-        var_dump($_SESSION); // Descarrega a variável
-
-        echo "</pre>";
-    ?>
-</body>
-</html>
+    require "footer.php"; // Necesário para rodapé
+?>

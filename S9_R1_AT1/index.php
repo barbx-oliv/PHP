@@ -61,14 +61,6 @@
             background-color: #495057;
         }
 
-        input[type="reset"] {
-            background-color: #e9ecef;
-            color: #333;
-            border: 1px solid #ccc;
-            margin-top: 10px;
-            cursor: pointer;
-        }
-
         /* Estilo para a parte dos dados recebidos */
         .dados-recebidos {
             text-align: left;

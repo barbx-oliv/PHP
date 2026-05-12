@@ -10,6 +10,7 @@
             background-color: #656d4a;
             text-align: center;
         }
+
         table {
             margin: 50px auto;
             border-collapse: collapse;
@@ -17,16 +18,19 @@
             width: 60%;
             color: white;
         }
+
         th, td {
             padding: 15px;
             border: 1px solid;
             text-align: left;
         }
+
         th {
             background-color: #c2c5aa;
             color: white;
             text-align: center;
         }
+        
         td {
             text-align: center;
         }
@@ -34,6 +38,7 @@
 </head>
 <body>
     <table>
+        <!-- Dados da tabela -->
         <tr>
             <th> Nome </th>
             <th> Idade </th>
@@ -41,6 +46,8 @@
         </tr>
 
         <?php 
+            // dados pertencentes ao alunos
+            // Array associativa com informações de cada aluno 
             $alunos = [
                 ["nome" => "Bárbara", "idade" => 18, "nota" => 8 ],
                 ["nome" => "Lola", "idade" => 8, "nota" => 10 ],
@@ -49,9 +56,11 @@
                 ["nome" => "Felícia", "idade" => 6, "nota" => 9 ]
             ];
 
+            // Título e parágrafo 
             "<h1> Bem vindo(a) ao seu Diario de Classe, professor(a)!</h1>";
             "<p> Aqui nos temos os registros de notas dos seguintes alunos: </p>";
-    
+
+
             foreach ($alunos as $f) {
                 echo "<tr> 
                         <td>" . $f["nome"] . "</td>

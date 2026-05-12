@@ -14,7 +14,7 @@
         $contador = 1;
 
         while ($contador <= 5) {
-            echo "Computador número $contador da lista <br>";
+            echo "Computador $contador da lista <br>";
             $contador++;
         }
     ?>

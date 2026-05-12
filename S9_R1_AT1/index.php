@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escolinha Cãopanheira</title>
     <style>
-        /* Mantendo o seu CSS que você gostou */
         body {
             background-color: #f8f9fa;
             font-family: Georgia, 'Times New Roman', Times, serif;
@@ -83,6 +82,7 @@
         <h1>Escolinha Cãopanheira</h1>
         <p>Registre seu pet para ele entrar na escola!</p>
 
+        <!-- Dados que o usuário irá digitar -->
         <form method="POST">
             <label>Nome do Dono</label>
             <input type="text" name="dono" id="dono">
@@ -107,9 +107,12 @@
             <hr>
 
             <?php 
+            // Função para fazer a exibição dos dados. Vai arrumar com a label e o valor logo do lado 
                  function exibirCampo($label, $valor) {
                     echo "$label : $valor <br>"; 
                 }
+
+                // Exibição dos valores na frente da label
                 exibirCampo("<strong> Nome do Dono </strong>", $_POST["dono"] ?? " ");
                 exibirCampo("<strong> E-mail </strong>", $_POST["email"] ?? " ");
                 exibirCampo("<strong> Nome do Pet </strong>", $_POST["pet"] ?? " ");

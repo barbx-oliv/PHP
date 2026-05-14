@@ -115,6 +115,7 @@ if ($tema == 'modoWhite') {
 
         <div class="dados">
             <?php 
+                // função para exibir as informações
                 function exibirCampo($label, $valor) {
                     echo "$label : " . htmlspecialchars($valor) . " <br>";
                 }
@@ -128,7 +129,7 @@ if ($tema == 'modoWhite') {
                     $_SESSION["console"] = $_POST["console"] ?? "";
                 }
 
-                // Exibindo as informações nos campos  
+                // Exibindo as informações dos campos  
                 exibirCampo("<strong> Nome do usuario </strong>", $_SESSION["usuario"] ?? " ");
                 exibirCampo("<strong> E-mail </strong>", $_SESSION["email"] ?? " ");
                 exibirCampo("<strong> Jogo </strong>", $_SESSION["jogo"] ?? " ");

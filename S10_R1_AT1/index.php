@@ -84,7 +84,7 @@ if ($tema == 'modoWhite') {
 </head>
 <body>
      
-    <?php require "header.php"; ?>
+    <?php include "header.php"; ?>
 
     <!-- Campos para o usuário preencher -->
     <div class="forms">
@@ -139,6 +139,6 @@ if ($tema == 'modoWhite') {
         </div>
     </div>
 
-    <?php require "footer.php"; ?>
+    <?php include "footer.php"; ?>
 </body>
 </html>

@@ -26,9 +26,9 @@
                 $sucessor = suc($escolhido);
 
                 // Respostas aparecendo na tela 
-                echo "<br> O número escolhido foi: " . $escolhido . "<br>";
-                echo "O número antecessor é: " . $antecessor . "<br>";
-                echo "O número sucessor é: " . $sucessor . "<br>";
+                echo "<br><p> O número escolhido foi: " . $escolhido . "</p><br>";
+                echo "<p>O número antecessor é: " . $antecessor . "</p><br>";
+                echo "<p>O número sucessor é: " . $sucessor . "</p><br>";
             }
         ?>
     </div>

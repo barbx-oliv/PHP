@@ -3,11 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sorteio ( •̀ ω •́ )✧</title>
+    <title>𐙚Sorteio ( •̀ ω •́ )✧</title>
+<style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #f4f3ee; 
+            color: #463f3a;          
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border: 2px solid #bcb8b1; 
+            border-radius: 20px;
+            display: inline-block;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 { 
+            color: #463f3a; 
+        }
+        
+        p { 
+            color: #8a817c; 
+        }
+
+        input[type="submit"] {
+            background-color: #e0afa0; 
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #bcb8b1;
+        }
+
+        .resultado-numeros {
+            margin-top: 15px;
+            font-size: 10px;
+            color: #463f3a;
+        }
+    </style>
 </head>
 <body>
-    <h1>Sorteio!!</h1>
-    <p>Bem vindo ao sorteador! Clique para sortear um número.</p>
+    <h1> ݁ ˖Ი𐑼⋆ Sorteio!! ╰(*°▽°*)╯</h1>
+    <p>Bem vindo ao sorteador!</p>
     <div class="card">
         <!-- Botão para o usuário cliar para começar a sortear um número -->
         <form method="POST">
